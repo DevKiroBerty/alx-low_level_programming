@@ -5,7 +5,9 @@
 /**
  * sum_them_all - check the code for Holberton School students.
  * @n: number of arguments
- * Return: Always 0.
+ * @...: A varaible number of parameters to calculate the sum of.
+ * Return: if n == 0 - 0.
+ * 	Otherwise - the sum of all parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
